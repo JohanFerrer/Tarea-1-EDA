@@ -1,0 +1,85 @@
+1.	1010, 11001, 1110
+2.	B
+3.	C
+4.	512, en complemento a uno: 255, complemento a dos: 203
+5.	255
+6.	Es una variables que contiene la dirección de otra variable y los valores son: Dirección, Dirección apuntada y Valor apuntado.
+7.	Es un modelo matemático compuesto por una colección de operaciones definidas sobre un conjunto de datos para el modelo
+8.	Signo del número real, signo del exponente, exponente y mantisa
+9.	entero: 4, flotante: 4, long: 8, double: 8, long double: 16
+10.	8
+
+typedef struct complejo complex;
+struct complejo{
+           float r;
+           float i;
+}
+
+
+
+struc_alumno{
+          char nombre [50];
+          int no_cuenta;
+          int semestre;
+          char carrera [50];
+};
+
+
+
+struct _node{
+          int dato;
+          node *next;
+};
+
+
+
+
+node* create_node (int d) {
+           node *nuevo
+           nuevo = (node*) malloc sizeof (node));
+           nuevo = dato = d;
+           nuevo -> next = NULL;
+  return;
+}
+
+
+
+
+typedef struct matrix matrix;
+struc matriz{
+         int r;
+         int c;
+         float **d;
+}
+
+         m.d=(float**) malloc (sizeof(float*)*m.r);
+         m.d[0] = (float *) malloc(sizeof(float)*m.c);
+         m.d[i][j]=3;f;
+return 0;
+}
+
+
+
+node* crear_node(int d){
+        node * nuevo;
+        nuevo=(node*)malloc(sizeof(node));
+        nuevo->dato=d;
+        nuevo->sig=NULL;
+return nuevo;
+}
+
+
+
+
+typedef struct complejo complex;
+             float r;
+             float i;
+             nodo * nuevo;
+                         nuevo =(nodo*)malloc(sizeof(*r));
+                         nuevo =(nodo*)malloc(sizeof(*i));
+            nuevo->node=r;
+            nuevo->node=i;
+            nuevo->sig=NULL;
+
+return nuevo
+}
